@@ -1,0 +1,27 @@
+{
+  "name": "pouchdb-abstract-mapreduce",
+  "version": "7.0.0-prerelease",
+  "description": "PouchDB's secondary index API as an abstract module",
+  "main": "./lib/index.js",
+  "keywords": [],
+  "author": "Dale Harvey <dale@arandomurl.com>",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/pouchdb/pouchdb",
+  "jsnext:main": "./lib/index.es.js",
+  "dependencies": {
+    "pouchdb-binary-utils": "github:HitomiTenshi/pouchdb-binary-utils",
+    "pouchdb-collate": "github:HitomiTenshi/pouchdb-collate",
+    "pouchdb-collections": "github:HitomiTenshi/pouchdb-collections",
+    "pouchdb-errors": "github:HitomiTenshi/pouchdb-errors",
+    "pouchdb-fetch": "github:HitomiTenshi/pouchdb-fetch",
+    "pouchdb-mapreduce-utils": "github:HitomiTenshi/pouchdb-mapreduce-utils",
+    "pouchdb-md5": "github:HitomiTenshi/pouchdb-md5",
+    "pouchdb-utils": "github:HitomiTenshi/pouchdb-utils"
+  },
+  "module": "./lib/index.es.js",
+  "files": [
+    "lib",
+    "dist",
+    "tonic-example.js"
+  ]
+}
